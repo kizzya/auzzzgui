@@ -4,12 +4,14 @@ local Window = Library.CreateLib("Auzzy's Premium OCM HUB Camlock Dashboard", "S
 local Tab = Window:NewTab("CAMLOCKS")
 local Section = Tab:NewSection("OPTIONS")
 
-Section:NewButton("75", "Enables 75 power camlock (X)", function()
+Section:NewButton("SILENT AIM", "AUTO SCORES (X)", function()
     
 loadstring(game:HttpGet("https://raw.githubusercontent.com/kizzya/auz/main/main"))()
 end)
 
 
-Section:NewButton("85", "Enables 75 power camlock (X)", function()
-   loadstirng(game:HttpGet("https://raw.githubusercontent.com/kizzya/auzzzz/main/main"))()
+Section:NewButton("BALL MAG", "TP BALL TO YOU (R)", function()
+    
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kizzya/auzzzz/main/main"))()
 end)
+
